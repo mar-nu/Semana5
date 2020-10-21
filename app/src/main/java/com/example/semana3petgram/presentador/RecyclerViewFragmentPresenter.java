@@ -1,6 +1,10 @@
-package com.example.semana3petgram;
+package com.example.semana3petgram.presentador;
 
 import android.content.Context;
+
+import com.example.semana3petgram.modelo.ConstructorMascotas;
+import com.example.semana3petgram.modelo.Mascota;
+import com.example.semana3petgram.vista.IRecyclerViewFragment;
 
 import java.util.ArrayList;
 

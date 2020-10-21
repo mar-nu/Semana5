@@ -1,4 +1,4 @@
-package com.example.semana3petgram;
+package com.example.semana3petgram.adapter;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;

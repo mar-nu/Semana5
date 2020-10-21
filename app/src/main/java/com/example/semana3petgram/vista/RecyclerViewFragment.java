@@ -1,4 +1,4 @@
-package com.example.semana3petgram;
+package com.example.semana3petgram.vista;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -8,6 +8,12 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.example.semana3petgram.presentador.IRecyclerViewFragmentPresenter;
+import com.example.semana3petgram.modelo.Mascota;
+import com.example.semana3petgram.R;
+import com.example.semana3petgram.presentador.RecyclerViewFragmentPresenter;
+import com.example.semana3petgram.adapter.MascotaAdapter;
 
 import java.util.ArrayList;
 
@@ -29,7 +35,7 @@ public class RecyclerViewFragment extends Fragment implements IRecyclerViewFragm
       View v = inflater.inflate(R.layout.fragment_recycler_view, container, false);
 
         rvMascotas = (RecyclerView) v.findViewById(R.id.rvMascotas);
-        presenter = new RecyclerViewFragmentPresenter (this, getContext());
+        presenter = new RecyclerViewFragmentPresenter(this, getContext());
 
         return v;
     }

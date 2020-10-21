@@ -1,4 +1,7 @@
-package com.example.semana3petgram;
+package com.example.semana3petgram.vista;
+
+import com.example.semana3petgram.modelo.Mascota;
+import com.example.semana3petgram.adapter.MascotaAdapter;
 
 import java.util.ArrayList;
 

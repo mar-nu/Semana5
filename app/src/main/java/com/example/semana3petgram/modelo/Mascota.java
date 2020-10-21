@@ -1,4 +1,4 @@
-package com.example.semana3petgram;
+package com.example.semana3petgram.modelo;
 
 public class Mascota {
     private int id;

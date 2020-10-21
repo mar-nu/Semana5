@@ -1,14 +1,13 @@
-package com.example.semana3petgram;
+package com.example.semana3petgram.db;
 
-import android.content.ContentResolver;
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
-import android.database.DatabaseErrorHandler;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+
+import com.example.semana3petgram.modelo.Mascota;
 
 import java.util.ArrayList;
 

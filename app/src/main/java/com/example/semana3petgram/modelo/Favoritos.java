@@ -1,10 +1,14 @@
-package com.example.semana3petgram;
+package com.example.semana3petgram.modelo;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+
+import com.example.semana3petgram.R;
+import com.example.semana3petgram.adapter.MascotaAdapter;
+import com.example.semana3petgram.modelo.Mascota;
 
 import java.util.ArrayList;
 

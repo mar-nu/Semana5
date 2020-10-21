@@ -1,4 +1,4 @@
-package com.example.semana3petgram;
+package com.example.semana3petgram.vista;
 
 
 import android.os.Bundle;
@@ -10,6 +10,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+
+import com.example.semana3petgram.Perfil;
+import com.example.semana3petgram.R;
+import com.example.semana3petgram.adapter.PerfilAdapter;
 
 import java.util.ArrayList;
 

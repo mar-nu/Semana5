@@ -12,7 +12,7 @@
         <activity android:name=".Contacto"></activity>
         <activity android:name=".AcercaDe" />
         <activity
-            android:name=".Favoritos"
+            android:name=".modelo.Favoritos"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

@@ -1,4 +1,4 @@
-package com.example.semana3petgram;
+package com.example.semana3petgram.adapter;
 
 import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
@@ -10,6 +10,10 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.semana3petgram.modelo.ConstructorMascotas;
+import com.example.semana3petgram.modelo.Mascota;
+import com.example.semana3petgram.R;
 
 import java.util.ArrayList;
 

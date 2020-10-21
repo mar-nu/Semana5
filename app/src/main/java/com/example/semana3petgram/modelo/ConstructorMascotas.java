@@ -1,7 +1,11 @@
-package com.example.semana3petgram;
+package com.example.semana3petgram.modelo;
 
 import android.content.ContentValues;
 import android.content.Context;
+
+import com.example.semana3petgram.R;
+import com.example.semana3petgram.db.BaseDatos;
+import com.example.semana3petgram.db.ConstantesBaseDatos;
 
 import java.util.ArrayList;
 
